@@ -19,7 +19,7 @@ function navbar() {
             <NavbarLink to="/signup">Signup</NavbarLink>
             <NavbarLink to="/support">Support</NavbarLink>
         </NavbarLinkContainer>
-        <NavbarImageContainer className="container">
+        <NavbarImageContainer className="container">  
             <Image src={logo} alt="gawther logo" />
         </NavbarImageContainer>
     </Navbar>

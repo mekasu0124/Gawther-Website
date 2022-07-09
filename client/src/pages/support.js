@@ -3,12 +3,12 @@ import {
     SupportCont,
     TitleCont,
     BodyCont,
-    SupportItem,
-    Title,
-    SupportItemTitle,
-    SupportItemDetails,
-    SupportItemLinks,
-    SupportItemLink
+    //SupportItem,
+    Title//,
+    // SupportItemTitle,
+    // SupportItemDetails,
+    // SupportItemLinks,
+    // SupportItemLink
 } from '../styles/support.style';
 
 
@@ -19,7 +19,13 @@ function support() {
             <Title>In Need Of Support?</Title>
         </TitleCont>
         <BodyCont className="container-fluid">
-            <SupportItem className="container-fluid">
+            <Title>
+                At This Time The Support Extension Of The Website
+                Is Under Construction. Please <a href="https://discord.gg/95uVDay6TH">
+                    Join Our Discord
+                </a> For Futher Support. -Developers
+            </Title>
+            {/* <SupportItem className="container-fluid">
                 <SupportItemTitle>Account Problems?</SupportItemTitle>
                 <SupportItemDetails>
                     For all problems related to account issues and their solutions
@@ -77,7 +83,7 @@ function support() {
                     <SupportItemLink to="/support">Support Link 3</SupportItemLink>
                     <SupportItemLink to="/support">Support Link 4</SupportItemLink>
                 </SupportItemLinks>
-            </SupportItem>
+            </SupportItem> */}
         </BodyCont>
     </SupportCont>
   );
